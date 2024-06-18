@@ -1,0 +1,23 @@
+{
+  "name": "dealum-test",
+  "version": "1.0.0",
+  "description": "Test project for job interview",
+  "main": "build/index.js",
+  "bin": {
+    "founders": "build/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5"
+  }
+}
